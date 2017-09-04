@@ -11,6 +11,8 @@ cd ~
 git clone git@github.com:briebug/dotfiles.git
 ln -s ~/dotfiles/zsh .zsh
 ln -s ~/dotfiles/zshrc .zshrc
+cp ~/dotfiles/git/gitconfig .gitconfig
+ln -s ~/dotfiles/git/gitignore .gitignore
 ```
 
 Link any other rc files that you wish to use.
