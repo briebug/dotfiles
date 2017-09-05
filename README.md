@@ -17,9 +17,17 @@ ln -s ~/dotfiles/git/gitignore .gitignore
 
 Link any other rc files that you wish to use.
 
+To change system defaults, copy the `macos` file and uncomment the desired lines, then run the script: 
+
+```
+cp ~/dotfiles/macos ~/macos.local
+~/macos.local
+```
+
 ## About
 
 This project was adapted from several sources:
 
 * [holman/dotfiles](https://github.com/holman/dotfiles)
+* [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
 * [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles)
